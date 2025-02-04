@@ -67,5 +67,5 @@ jobs:
           artifacts: kernel/builds/*.zip
           tag: "${{ github.run_number }}"
           name: "Release ${{ env.VERSION }}"
-          token: ${{ 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 }}
+          token: ${{ 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}}
           bodyFile: release_notes.txt
