@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Kernel Builder
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     env:
       CCACHE_COMPILERCHECK: "%compiler% -dumpmachine; %compiler% -dumpversion"
       CCACHE_NOHASHDIR: "true"
